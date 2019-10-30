@@ -338,7 +338,7 @@ NtpClient::Connect()
 	}
 
 	ReceivedMessage(bufferRx);
-
+	WSACleanup();
 	return true;
 }
 
