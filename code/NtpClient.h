@@ -44,7 +44,7 @@
   *	  |                                                               |
   *	  |                                                               |
   *	  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-
+  *
   *	/// SNTP Timestamp Format (as described in RFC 2030)
   *                         1                   2                   3
   *   0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
@@ -229,7 +229,7 @@ private:
 	uint64_t convert_ntp_to_date(uint64_t _ntpTs, struct date_structure* _outDataTs);
 	/**
 	 * This function returns the LeapIndicator field in a string format (see _LeapIndicatorValues).
-     *
+	 *     
 	 * \param _leapIndicator the _leapIndicator from structure SNTPMessage (unsigned char)
 	 *
 	 * Returns the string format of LeapIndicator
