@@ -1,0 +1,7 @@
+﻿  main.cpp
+  NtpClient.cpp
+  The contents of <filesystem> are only available with C++17 or later.
+C:\Users\5gic\Documents\Github\sntp_windows\sntp_client\code_VS19\Ntp_sync\NtpClient.cpp(249,19): warning C4244: 'initializing': conversion from 'uint64_t' to 'int', possible loss of data
+  Generating Code...
+C:\Users\5gic\Documents\Github\sntp_windows\sntp_client\code_VS19\Ntp_sync\NtpClient.cpp(252,22): warning C4244: 'initializing': conversion from 'uint64_t' to 'int', possible loss of data
+  Ntp_sync.vcxproj -> C:\Users\5gic\Documents\Github\sntp_windows\sntp_client\code_VS19\x64\Debug\Ntp_sync.exe

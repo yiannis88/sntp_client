@@ -348,6 +348,7 @@ NtpClient::GetNtpTimestamp64(int offset, char* buffer)
 {
 	const int _len = sizeof(uint64_t);
 	char valueRx[_len];
+	memset(valueRx, 0, _len);
 	int jj = sizeof(uint64_t) - 1;
 	for (int ii = offset; ii < offset + _len; ii++)
 	{
@@ -366,6 +367,7 @@ NtpClient::GetNtpField32(int offset, char* buffer)
 {
 	const int _len = sizeof(int);
 	char valueRx[_len];
+	memset(valueRx, 0, _len);
 	int jj = sizeof(int) - 1;
 	for (int ii = offset; ii < offset + _len; ii++)
 	{
